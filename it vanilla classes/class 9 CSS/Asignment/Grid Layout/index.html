@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout</title>
+    <style>
+      .container {
+        display: grid;
+        grid-gap: 1rem;
+        color: white;
+
+        grid-template-areas:
+          "header header header header "
+          "navbar navbar navbar navbar"
+          "article article article aside"
+          "footer footer footer footer ";
+      }
+      .item {
+        background-color: darkgrey;
+        padding: 15px 23px;
+        border-radius: 5px;
+      }
+      .item1 {
+        background-color: gray;
+        border-radius: 5px;
+      }
+      #header {
+        grid-area: header;
+        height: 10px;
+      }
+      #navbar {
+        grid-area: navbar;
+        height: 10px;
+      }
+      #article {
+        grid-area: article;
+        height: 150px;
+      }
+      #section {
+        grid-area: section;
+        height: 100px;
+        margin-top: 35px;
+        margin-bottom: 2px;
+      }
+      #aside {
+        grid-area: aside;
+        height: 150px;
+      }
+      #footer {
+        grid-area: footer;
+        height: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header" class="item">Header</div>
+      <div id="navbar" class="item">Navbar</div>
+      <div id="article" class="item">
+        Article
+        <div id="section" class="item1">Section</div>
+      </div>
+      <div id="aside" class="item">Aside</div>
+      <div id="footer" class="item">Footer</div>
+    </div>
+  </body>
+</html>

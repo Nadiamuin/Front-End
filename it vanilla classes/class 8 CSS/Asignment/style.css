@@ -1,0 +1,49 @@
+* {
+  margin: 5px;
+  padding: 2px;
+}
+h1 {
+  text-align: center;
+  background-color: dimgray;
+}
+
+ul {
+  margin: 50px;
+  list-style-type: circle;
+}
+
+body {
+  background-color: darkseagreen;
+}
+
+#Electronics {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+}
+
+#Electronics td,
+#Electronics th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#Electronics tr:nth-child(even) {
+  background-color: darkslategray;
+}
+#Electronics tr:nth-child(odd) {
+  background-color: dimgray;
+}
+
+#Electronics tr:hover {
+  background-color: beige;
+}
+
+#Electronics th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.849);
+  color: blanchedalmond;
+}

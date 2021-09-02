@@ -1,0 +1,14 @@
+img {
+  width: 34px;
+  margin: auto;
+  display: block;
+}
+h3 {
+  font-family: cursive;
+  margin: 0px;
+}
+header {
+  margin: auto;
+  border: 2px solid red;
+  width: 15%;
+}

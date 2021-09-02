@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#country {
+  color: beige;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: cadetblue;
+  padding: 20px 50px;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.para {
+  color: crimson;
+}

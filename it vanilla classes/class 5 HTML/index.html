@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>full practice of html</title>
+   <style>
+           body {background-color: powderblue;}
+           h1 {color: red;}
+           p {color: blue;}
+   </style>
+   <link rel="stylesheet" href="mystyle.css">
+
+   <script>
+          function myFunction() {
+          document.getElementById("demo").innerHTML = "Hello JavaScript!";
+          }
+   </script>
+   <base href="https://www.w3schools.com/" target="_blank">
+</head>
+
+<body>
+    <p>let's do it</p>
+    <h1>My Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+<p><img src="images/stickman.gif" width="24" height="39" alt="Stickman"> - Notice that we have only specified a relative address for the image. Since we have specified a base URL in the head section, the browser will look for the image at "https://www.w3schools.com/images/stickman.gif".</p>
+
+<p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
+
+</body>
+</html>

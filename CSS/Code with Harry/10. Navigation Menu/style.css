@@ -1,0 +1,25 @@
+.navbar {
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+}
+.navbar li a {
+  padding: 5px 5px;
+}
+
+.search {
+  float: right;
+  padding-top: 11px;
+  padding-right: 13px;
+}
+.navbar input {
+  border-radius: 15px;
+}

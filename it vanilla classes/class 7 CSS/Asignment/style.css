@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  width: 400px;
+  height: 150px;
+  background-color: green;
+  margin: 20px;
+  padding: 50px;
+  /* border-width: 5px;
+      border-style: dotted;
+      border-color: hotpink; */
+}
+
+.box:hover {
+  background-color: red;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+  margin: 21px 0px 20px 130px;
+}
+
+.box:hover .red {
+  background-color: green;
+}
+.container {
+  border: 4px solid red;
+  background-color: rgb(222, 247, 179);
+  padding: 34px;
+  margin: 34px auto;
+  width: 666px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(65, 43, 189);
+  background-color: honeydew;
+}
+
+a:visited {
+  color: rgb(177, 43, 189);
+}
+
+a:active {
+  background-color: seagreen;
+}
+.btn {
+  background-color: rgb(230, 199, 243);
+  padding: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  border-radius: 4px;
+  font-family: cursive;
+  font-weight: bold;
+}
+.btn:hover {
+  color: brown;
+  background-color: darkblue;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 900px;
+  border: 3px solid purple;
+  margin: 33px auto;
+  background-color: rgb(241, 228, 216);
+}
+.item {
+  border: 3px solid gray;
+  margin: 12px 3px;
+  padding: 12px 3px;
+  background-color: rgb(240, 200, 200);
+}
+#fruits {
+  float: right;
+  width: 48%;
+}
+#computer {
+  float: left;
+  width: 48%;
+}
+#stationary {
+  clear: both;
+  /* float: left; */
+}
+p {
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  margin: 13px;
+  padding: 13px;
+  border: 3px solid darkolivegreen;
+}
+#firstpara {
+  background-color: red;
+  height: 100px;
+  width: 455px;
+  border: 4px solid seagreen;
+  border-width: 4px;
+  border-color: seagreen;
+  border-style: solid;
+  border-radius: 11px;
+}
+
+#secondpara {
+  background-color: skyblue;
+  height: 100px;
+  width: 455px;
+  border-top: 4px solid rgb(219, 233, 28);
+  border-right: 4px solid rgb(69, 59, 138);
+  border-bottom: 4px solid rgb(192, 44, 118);
+  border-left: 4px solid rgb(146, 205, 90);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+#thirdpara {
+  height: 1100px;
+  width: 1455px;
+  background-image: url("https://hddesktopwallpapers.in/wp-content/uploads/2015/09/picture-seal.jpg");
+  border: 4px solid red;
+  border-radius: 11px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

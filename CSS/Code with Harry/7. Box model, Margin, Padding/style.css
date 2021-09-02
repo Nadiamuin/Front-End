@@ -1,0 +1,24 @@
+.container {
+  background-color: rgb(136, 99, 221);
+  border: 3px solid rgb(27, 42, 112);
+
+  /* padding: 79px; */
+  margin: 44px;
+
+  /* we can set margin & padding for top,bottom,left & right like this
+  padding-top: 40px
+  padding-right: 40px
+  padding-bottom: 40px
+  padding-left: 40px*/
+
+  /* padding: 23px 56px 6px 78px; padding: top right bottom left; */
+
+  padding: 34px 19px; /* padding: y(top/bottom) x(left/right) */
+
+  border-radius: 30px;
+  /* width: 233px; */
+}
+
+body {
+  background-color: rgb(105, 114, 167);
+}

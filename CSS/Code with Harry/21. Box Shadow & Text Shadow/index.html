@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box & text shadow</title>
+    <style>
+      .container {
+        display: flex;
+      }
+      .card {
+        padding: 23px 12px;
+        margin: 23px 12px;
+        /* border: 2px solid red; */
+        background-color: cadetblue;
+        /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+        /* box-shadow: -10px -13px 10px rgb(113, 161, 113); */
+        box-shadow: 5px 4px 5px 5px rgb(105, 143, 105);
+        /* box-shadow: 10px 13px 5px 5px rgba(red, green, blue 0.5); */
+        /* box-shadow: inset 10px 13px 5px 5px rgb(105, 143, 105); */
+        /* box-shadow: inset 10px 13px 5px 5px rgb(105, 143, 105), */
+        /* 13px 15px rgb(150, 83, 83); */
+      }
+      .card h2 {
+        text-shadow: 1px 2px 2px white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" id="card1">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione saepe
+          quod minima ex ad ea, iusto quibusdam repellendus blanditiis, fugit
+          quas omnis cum ab. Repellat quo fuga, repellendus in autem magni
+          provident iste quis!
+        </p>
+        <h2>Card1</h2>
+      </div>
+      <div class="card" id="card2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+          consectetur ipsa eveniet illum voluptatibus. Beatae, laborum cumque.
+          Delectus autem iste illum. Similique ipsum ad iste molestias
+          necessitatibus expedita cumque exercitationem eos voluptatibus.
+          Facere, explicabo.
+        </p>
+        <h2>Card2</h2>
+      </div>
+      <div class="card" id="card3">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis,
+          voluptatem magni sapiente a dicta tempora! Quo, assumenda voluptatem?
+          Vel temporibus corporis, quaerat sit molestias alias. Et doloribus sed
+          veritatis ut ipsum ab placeat perferendis.
+        </p>
+        <h2>Card3</h2>
+      </div>
+    </div>
+  </body>
+</html>
