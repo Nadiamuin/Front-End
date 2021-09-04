@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  width: 100%;
+  background-color: grey;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.logo a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+
+.logo a:hover {
+  color: cadetblue;
+}
+
+.menu-items {
+  display: flex;
+  list-style: none;
+}
+
+.menu-item {
+  padding: 10px;
+}
+
+.menu-item a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500px;
+  font-size: 1.2rem;
+}
+
+.menu-item a:hover {
+  color: tomato;
+}

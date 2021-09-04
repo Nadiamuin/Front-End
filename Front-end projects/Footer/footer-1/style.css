@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer {
+  width: 100%;
+  background-color: grey;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.description {
+  width: 33%;
+}
+
+.description .logo a {
+  color: tomato;
+  text-decoration: none;
+  font-size: 1.75rem;
+  font-weight: bolder;
+}
+
+.description .logo a:hover {
+  color: cadetblue;
+}
+
+.extra-try {
+  display: flex;
+  justify-content: space-around;
+}
+
+.extra-items {
+  list-style: none;
+}
+
+.heading {
+  color: tomato;
+}
+
+.nav-items {
+  list-style: none;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-items {
+  list-style: none;
+}
+
+.contact-items li a {
+  text-decoration: none;
+  color: black;
+}
+
+.address-items {
+  list-style: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin: 10px;
+}
