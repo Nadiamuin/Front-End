@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  width: 100%;
+  /* background-color: rgb(169, 185, 216); */
+}
+
+.main-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.first-sec {
+  /* background-color: crimson; */
+  width: 33%;
+  margin: 10px;
+  padding: 10px;
+}
+.second-sec {
+  /* background-color: darkgoldenrod; */
+  width: 33%;
+  margin: 10px;
+  padding: 10px;
+}
+.third-sec {
+  /* background-color: darkorchid; */
+  width: 33%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.paragraph {
+  position: relative;
+}
