@@ -1,0 +1,13 @@
+.service-icon {
+  background-color: lightgray;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.list-style {
+  list-style: none;
+}
+
+.color {
+  background-color: darkseagreen;
+}
