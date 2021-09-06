@@ -1,0 +1,140 @@
+@media screen and (max-width: 944px) {
+  header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 598px) {
+  header {
+    width: 100%;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .first-section {
+    width: 100%;
+  }
+
+  .first-heading {
+    text-align: center;
+  }
+
+  .first-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  h2 {
+    color: tomato;
+    background-color: white;
+  }
+
+  .first-sec {
+    /* background-color: crimson; */
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+  }
+  .second-sec {
+    /* background-color: darkgoldenrod; */
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+  }
+  .third-sec {
+    /* background-color: darkorchid; */
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  /* =================================first-section end============================== */
+
+  /* =================================second-section===================================== */
+
+  .second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .first-img {
+    background-image: url("assets/ia_200000061.jpg");
+    height: 400px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-repeat: no-repeat;
+  }
+
+  .first-img p {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+  }
+
+  .second-img {
+    background-image: url("assets/ia_100000000162.jpg");
+    height: 400px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-repeat: no-repeat;
+  }
+
+  .second-img p {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+  }
+
+  /* =======================================second-section ends===================== */
+
+  /* ======================================third - section starts ====================*/
+  .third-section-heading h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+  }
+
+  .service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .service-item-icon {
+    width: 33%;
+    height: 150px;
+  }
+
+  .service-item-icon img {
+    border-radius: 50%;
+    padding: 20px;
+    border: 5px solid orangered;
+  }
+
+  .third-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .service-item-heading {
+    text-align: center;
+  }
+
+  .service-item-description {
+    text-align: center;
+  }
+
+  /* ======================================third - section ends */
+}
