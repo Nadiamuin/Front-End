@@ -1,0 +1,8 @@
+.sidebar {
+  background-color: black;
+  overflow-y: scroll;
+  height: 600px;
+}
+.list-group-item {
+  background-color: black;
+}
