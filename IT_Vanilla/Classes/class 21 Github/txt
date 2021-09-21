@@ -1,0 +1,6 @@
+git add . 
+git commit -m "" 
+git push -u origin (branchName)
+git pull 
+git branch - to see all branches 
+git branch newBranch -to create a new branch

@@ -1,0 +1,9 @@
+.banner {
+    background-image: url("https://www.centurybizsolutions.net/wp-content/uploads/2016/01/Banner-Buildings-1.png") !important;
+    height: 500px;
+    background-position: center;
+  }
+  
+  .about-us-bg {
+    background-color: lightcyan;
+  }
