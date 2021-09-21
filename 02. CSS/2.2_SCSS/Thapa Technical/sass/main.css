@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: gray;
+}
+
+body:hover {
+  background-color: lightgray;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-content--disabled {
+  opacity: 0.9;
+}
+
+.main-content__heading {
+  color: #2d584a;
+  font-size: 7rem;
+  letter-spacing: 0.8rem;
+  text-transform: capitalize;
+}
+
+.main-content__heading:hover {
+  color: black;
+}
+
+.main-content__heading::after {
+  content: " Nadia!";
+}
+
+.main-content__paragraph {
+  color: #2d584a;
+  font-size: 7rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.main-content__paragraph:hover {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

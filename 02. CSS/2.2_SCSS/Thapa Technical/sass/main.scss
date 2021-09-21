@@ -1,0 +1,67 @@
+@import "mixin";
+@import "var";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $bg-color;
+}
+
+body:hover {
+    background-color: lightgray;
+}
+
+// nesting
+.main-content {
+    @include flexprop;
+    width: 100vw;
+    height: 100vh;
+
+    &--disabled{
+        opacity: 0.9;
+    }
+
+
+    &__heading {
+        @include commoncode(.8rem, capitalize);
+
+        &:hover {
+            color: black;
+        }
+
+        &::after {
+            content: " Nadia!";
+        }
+    }
+
+    &__paragraph {
+        @include commoncode(.3rem, uppercase);
+
+        &:hover {
+            color: black;
+        }
+    }
+
+
+}
+
+
+
+
+
+// Things we can do with scss here
+
+// 1. operator 
+// 2. variables
+// 3. nesting
+// 4. mixin
+// 5. parameters
+// 6. partials
